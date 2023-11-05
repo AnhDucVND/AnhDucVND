@@ -1,0 +1,1 @@
+{"uuid":"50a27a55-6aa8-4ed5-8d18-fb524e9eaba2","name":"VNDIRECT.MTK.MA.createAccount","children":["cd3bb042-efce-41f0-9c62-ec70a0291632"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1699107494485,"stop":1699107502260}],"afters":[],"links":[],"start":1699107494458,"stop":1699107505070}
