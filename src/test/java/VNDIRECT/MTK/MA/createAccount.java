@@ -2,6 +2,9 @@ package VNDIRECT.MTK.MA;
 
 import NPT.NptPageObjects.NptHomePageObject;
 import NPT.NptPageObjects.NptLoginPageObject;
+import VNDIRECT.MyAccount.APIs.APIRequestKeyword;
+import VNDIRECT.MyAccount.APIs.APIUtilities;
+import VNDIRECT.MyAccount.APIs.WebServiceObject;
 import VNDIRECT.MyAccount.CreateAcount.CreateAccountInfoLoginObject;
 import VNDIRECT.MyAccount.CreateAcount.InfoContact;
 import VNDIRECT.MyAccount.DGO.MaLoginObject;
@@ -18,6 +21,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
 import java.lang.reflect.Method;
 import java.util.concurrent.TimeUnit;
 import commons.BasePage;
@@ -74,6 +78,18 @@ public class createAccount extends BaseTest {
         basePage.wait(5);
         createAccountInfoLoginObject.clickToOTPAccpectButton();
         basePage.wait(5);
+    }
+
+    @Test
+    public void TC02() throws IOException {
+
+        WebServiceObject api1=new WebServiceObject("https://pokeapi.co/api/v2/version/1/",null,"POST",null);
+
+        APIRequestKeyword apiRequestKeyword=new APIRequestKeyword();
+        System.out.println(apiRequestKeyword.sendAPIRequest(api1).toString());
+        System.out.println(apiRequestKeyword.sendAPIRequest(api1));
+
+
 
     }
 
