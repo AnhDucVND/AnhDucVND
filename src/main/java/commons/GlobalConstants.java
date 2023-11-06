@@ -5,7 +5,7 @@ import java.io.File;
 public class GlobalConstants {
     public static final String ADMIN_LOGIN = "https://admintest.onkiot.com/";
     public static final String NPT_LOGIN = "https://npttest.onkiot.com/";
-    public static final String URL_MYACC = "https://myaccount-v2-uat2.vndirect.com.vn/login";
+    public static final String URL_MYACC = "https://myaccount.vndirect.com.vn/login";
     public static String ADMIN_ACCOUNT = "adminqc";
     public static String ADMIN_PASSWORD = "admin@11";
     public static String NPT_ACCOUNT = "0984526455";

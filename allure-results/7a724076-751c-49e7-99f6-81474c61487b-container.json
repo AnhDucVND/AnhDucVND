@@ -1,0 +1,1 @@
+{"uuid":"7a724076-751c-49e7-99f6-81474c61487b","name":"CloneSelenium","children":["fcf5c535-5c39-47be-bd49-c66db6647b6e"],"befores":[{"name":"testSetUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1699282000090,"stop":1699282002629}],"afters":[],"links":[],"start":1699282000082,"stop":1699282031260}
